@@ -4,18 +4,20 @@ var Word = function(txt) {
 	this.currentWord = txt;
 	this.letters = [];
 	this.wordDisplay = "";
+
 	this.wordSearch function() {
 		for (i = 0; i < this.currentWord.length; i++) {
 			var letter = new Letter(this.currentWord[i]);
 			this.letter.push(letter);
 		}
 	};
-	this.displayWord function() {
 
+	this.displayWord function() {
+		//displays the word if the letters are guess correctly  
 	};
-	this.wordSearch();
-	this.displayWord();
+	// wordSearch();
+	// displayWord();
 
 };
-var newWord = new Word("apple");
-console.log(newWord);
+// var newWord = new Word("apple");
+// console.log(newWord);
